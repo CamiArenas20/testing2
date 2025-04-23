@@ -1,1 +1,14 @@
-# testing2
+# README #
+Ete es un repositorio de...
+
+### NOMBRE Y APELLIDO: ###
+ARENAS CAMILA
+
+### MATERIA: ###
+TALLER DE INGENIERIA DE SOFTWARE
+
+### CURSO: ###
+7°2°
+
+### COLEGIO: ###
+COLEGIO TECNICO OLGA B. DE ARKO.
