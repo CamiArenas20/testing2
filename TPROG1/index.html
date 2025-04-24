@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="formulario">
+        <div class="nombreI">
+            <h2 id="nombre">Nombre de la tarea:<input type="text" id="nombreT"></h2>
+        </div>
+
+        <div>
+            <h2 id="categoriaI">Categoria:<label for="opciones"></label>
+                <select id="opciones" name="opciones">
+                    <option value="Casa" >Casa</option>
+                    <option value="Trabajo" >Trabajo</option>
+                    <option value="Estudio" >Estudio</option>
+                </select>
+            </h2>
+        </div>
+
+        <div class="prioridad">
+            <h2 id="prioridad">Prioridad:<label for="opciones"></label>
+                <select id="opcionesP" name="opciones">
+                    <option value="Alta">Alta</option>
+                    <option value="Media">Media</option>
+                    <option value="Baja">Baja</option>
+                </select>
+            </h2>
+        </div>
+
+        <div class="botonA">
+            <button onclick="Agregar()">Agregar</button>
+        </div>
+
+<div class="filtro">
+        <h2 id="categorias">Categoria:<label for="opciones"></label>
+            <select id="opciones" name="opciones">
+                <option value="opcion1">Casa</option>
+                <option value="opcion2">Trabajo</option>
+                <option value="opcion3">Estudio</option>
+            </select>
+        </h2>
+    </div>
+
+  <div id="tareaDiv">
+
+    
+  </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
