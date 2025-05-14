@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor1">
+        <h1>listado de tareas</h1>
+
+        <div class="contenedor2">
+            <div class="formulario">
+                <h3>Nombre:<input type="text" id="tareaI" placeholder="Escribe aqui"></h3>
+                
+                    <h3>Categoria:</h3>
+                
+                <select id="opcionesCat" name="opciones">
+                    <option value="Casa" id="casaCat">Casa</option>
+                    <option value="Trabajo" id="trabajoCat">Trabajo</option>
+                    <option value="Estudio" id="estudioCat">Estudio</option>
+                </select>
+                <br>
+                <h3>Prioridad:<select id="opcionesPrio" name="opciones">
+                    <option value="Urgente" id="urgente">Urgente</option>
+                    <option value="Media" id="media">Media</option>
+                    <option value="Baja" id="baja">Baja</option>
+                </select></h3>
+        
+        <button id="button" onclick="Agregar()">Agregar Tarea</button>
+        </div>
+        <h3>Filtrar por:<select id="opcionesLis" name="opciones">
+            <option value="l1" id="casaLis">Casa</option>
+            <option value="l2" id="trabajoLis">Trabajo</option>
+            <option value="l3" id="estudioLis">Estudio</option>
+        </select></h3>
+
+       
+            <div class="listado">
+                <div class="tareasL">
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+//tengo dos opciones o las pongo en el javascript o las pongo en el html al botom de borrar y a el del estado
+//cuando cree los divs de tareas tienen que aparecer las imagenes de borrar y lo del los estados.
